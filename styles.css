@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+}
+    
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+    height: 750px;
+}
+
+.icons {
+display: flex;
+width: 64px;
+height: 40px;
+margin-top: 35px;
+
+}
+
+.sedan-container {
+display: flex;
+flex-direction: column;
+background-color:hsl(31, 77%, 52%);
+width: 29%;
+height: 60%;
+padding-left: 35px;
+padding-right: 50px;
+border: 1px solid hsl(31, 77%, 52%);
+border-bottom-left-radius: 6px;
+border-top-left-radius: 6px;
+}
+
+.suv-container {
+    background-color:hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-right: 50px;
+    width: 29%;
+    border: 1px solid hsl(184, 100%, 22%); 
+}
+
+.luxury-container {
+background-color:hsl(179, 100%, 13%);
+display: flex;
+flex-direction: column;
+padding-left: 35px;
+padding-right: 50px;
+width: 29%;
+border: 1px solid hsl(179, 100%, 13%);
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+}
+
+.heading {
+display: flex;
+font-family: 'Big Shoulders Display', cursive;
+font-size: 36px;
+font-weight: 700;
+align-self: flex-start;
+padding-top: 25px;
+padding-bottom: 25px;
+color:hsl(0, 0%, 95%);
+
+}
+
+.text {
+ color:hsla(0, 0%, 100%, 0.75);
+ font-family: 'Lexend Deca', sans-serif;
+ font-size: 15px;
+ line-height: 1.6;
+ 
+ 
+
+}
+
+.learn-sedan {
+margin-top: 75px;
+width: 140px;
+padding: 13px 10px;
+font-size: 15px;
+border-radius: 25px;
+background-color: hsl(0, 0%, 95%);
+border-color: hsl(0, 0%, 95%);
+border-width: 0;
+color:hsl(31, 77%, 52%);
+} 
+
+.learn-sedan:hover {
+background-color: transparent;
+color: hsl(0, 0%, 95%);     
+border-radius: 25px;
+border: 2px white solid; 
+}
+
+
+
+.learn-suv {
+margin-top: 75px;
+width: 140px;
+padding: 13px 10px;
+font-size: 15px;
+border-radius: 25px;
+border-width: 0;
+color:hsl(184, 100%, 22%) ;
+  }
+
+  .learn-suv:hover {
+background-color: transparent;
+color: hsl(0, 0%, 95%);     
+border-radius: 25px;
+border: 2px white solid;     
+} 
+
+
+.learn-luxury {
+margin-top: 75px;
+width: 140px;
+padding: 13px 10px;
+font-size: 15px;
+border-radius: 25px;
+border-width: 0;
+color:hsl(179, 100%, 13%);
+}
+
+.learn-luxury:hover {
+background-color: transparent;
+color: hsl(0, 0%, 95%);     
+border-radius: 25px;
+border: 2px white solid; 
+}
+
